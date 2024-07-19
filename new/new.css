@@ -1,3 +1,4 @@
+
 /* Reset and general styling */
 * {
     box-sizing: border-box;
@@ -11,7 +12,7 @@ html {
     height: 95vh;
     font-family: "cy", sans-serif;
     font-weight: 600;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 30px;
 }
 
@@ -22,7 +23,7 @@ body {
     height: 95vh;
     font-family: "cy", sans-serif;
     font-weight: 600;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
     color: #e3dede;
 }
@@ -69,8 +70,8 @@ a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
-    gap: 20px; /* Gap between grid items */
-    padding: 20px; /* Padding around the grid */
+    gap: 10px; /* Gap between grid items */
+    padding: 100px; /* Padding around the grid */
     max-width: 1200px; /* Maximum width of the grid */
     margin: 20px auto; /* Centering the grid */
 }
@@ -78,7 +79,7 @@ a:hover {
 .grid-item {
     color: #b3d4fc;
     cursor: pointer;
-    padding: 20px; /* Padding inside each grid item */
+    padding: 50px; /* Padding inside each grid item */
     text-align: center; /* Center text */
     border: 1px solid gray; /* Example border */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
@@ -100,7 +101,7 @@ a:hover {
     border-radius: 5px;
     display: none; /* Hide by default */
     color: #e3dede;
-    font-size: medium;
+    font-size: large;
 }
 
 .grid-item.show-phrase .phrase {
