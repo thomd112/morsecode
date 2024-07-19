@@ -5,41 +5,29 @@
     padding: 0;
 }
 
-
-
-
 html {
     color: #e3dede;
-    margin: 30;
     width: 95vw;
     height: 95vh;
-  font-family: "cy", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  line-height: 1.6;
-  margin: 30px;
-  
-  }
+    font-family: "cy", sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 30px;
+}
 
-  
-
-  
-  body{
+body {
     background-color: #222;
     margin: 0;
-      width: 95vw;
-      height: 95vh;
-      font-family: "cy", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 150px;
-  text-align: center;
-  color: #e3dede;
-  }
-  
-  
+    width: 95vw;
+    height: 95vh;
+    font-family: "cy", sans-serif;
+    font-weight: 600;
+    font-size: 150px;
+    text-align: center;
+    color: #e3dede;
+}
 
-  h1 {
+h1 {
     font-size: 50px;
     text-align: center;
     margin: 30px 0;
@@ -55,30 +43,28 @@ h3 {
     font-size: 25px;
     text-align: center;
     display: inline-block;
-    margin: 10 5px; 
+    margin: 10px 5px; 
 }
 
-a{ font-size: 25px;
+a {
+    font-size: 25px;
     text-align: center;
     margin: 5px 5px;
     line-height: normal;
     text-decoration: none;
-           
 }
 
-a:link{
+a:link {
     color: #b3d4fc;
 }
 
-a:visited{
+a:visited {
     color: #e3dede;
 }
 
-a:hover{
+a:hover {
     color: #b3d4fc;
 }
-
-
 
 .grid-container {
     display: grid;
@@ -91,14 +77,31 @@ a:hover{
 
 .grid-item {
     color: #b3d4fc;
-  cursor: pointer;
+    cursor: pointer;
     padding: 20px; /* Padding inside each grid item */
     text-align: center; /* Center text */
     border: 1px solid gray; /* Example border */
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; /* For positioning the phrase */
 }
 
 .grid-item:hover {
     background-color: gray; /* Change background color on hover */
 }
 
+.phrase {
+    position: absolute;
+    left: 100%; /* Position to the right of the grid item */
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap; /* Prevents wrapping */
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none; /* Hide by default */
+    color: #e3dede;
+}
+
+.grid-item.show-phrase .phrase {
+    display: block; /* Show on click */
+}
