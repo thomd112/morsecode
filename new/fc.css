@@ -118,14 +118,17 @@ h2 {
 
 a:link {
     color: #b3d4fc;
+    cursor: url('CURSOR.png'),auto;
 }
 
 a:visited {
     color: #e3dede;
+    cursor: url('CURSOR.png'),auto;
 }
 
 a:hover {
     color: #b3d4fc;
+    cursor: url('CURSOR.png'),auto;
 }
   
 
@@ -208,6 +211,7 @@ a:hover {
     font-style: normal;
     padding: 10px;
     text-align: center;
+    cursor: url('CURSOR.png'),auto;
   }
   
   /* Hover effects */
@@ -232,6 +236,7 @@ a:hover {
       width: 30vw; /* Adjust width on medium screens */
       height: 30vw; /* Adjust height on medium screens */
       font-size: 8vw; /* Adjust font size on medium screens */
+      cursor: url('CURSOR.png'),auto;
     }
   }
   
@@ -241,6 +246,7 @@ a:hover {
       width: 40vw; /* Adjust width on large screens */
       height: 40vw; /* Adjust height on large screens */
       font-size: 8vw; /* Adjust font size on large screens */
+      cursor: url('CURSOR.png'),auto;
     }
   }
 
