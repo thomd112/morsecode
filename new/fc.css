@@ -184,6 +184,7 @@ a:hover {
     text-align: center;
     margin-top: 50px;
     margin-right: 900px;
+    
   
  
   }
@@ -230,7 +231,7 @@ a:hover {
     #flashcard, #shuffle {
       width: 30vw; /* Adjust width on medium screens */
       height: 30vw; /* Adjust height on medium screens */
-      font-size: 10vw; /* Adjust font size on medium screens */
+      font-size: 8vw; /* Adjust font size on medium screens */
     }
   }
   
@@ -239,7 +240,7 @@ a:hover {
     #flashcard, #shuffle {
       width: 40vw; /* Adjust width on large screens */
       height: 40vw; /* Adjust height on large screens */
-      font-size: 10vw; /* Adjust font size on large screens */
+      font-size: 8vw; /* Adjust font size on large screens */
     }
   }
 
