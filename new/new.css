@@ -22,19 +22,23 @@ nav a {
 /* Specific styles for individual sections if needed */
 .home {
     background-color: #222;
+    cursor: url('CURSOR.png'),auto;
 }
 
 .about {
     background-color: #222;
+    cursor: url('CURSOR.png'),auto;
 }
 
 .flashcards {
     background-color: #222;
+    cursor: url('CURSOR.png'),auto;
 }
 
 /* Additional styling for active or hovered links */
 nav a:hover {
     background-color: #ddd;
+    cursor: url('CURSOR.png'),auto;
     color: #222;
 }
 
@@ -54,6 +58,7 @@ html {
 }
 
 body {
+   
     background-color: #222;
     margin: 0;
     width: 95vw;
@@ -115,7 +120,7 @@ a:hover {
 
 .grid-item {
     color: #b3d4fc;
-    cursor: pointer;
+    cursor: url('CURSOR.png'),auto;
     padding: 50px; /* Padding inside each grid item */
     text-align: center; /* Center text */
     border: 1px solid gray; /* Example border */
