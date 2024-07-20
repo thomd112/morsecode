@@ -147,8 +147,10 @@ a:hover {
 
 .intro {
     color: #e3dede;
-    line-height: 1.6;
-    text-align: left; /* Align text to the left */
+    line-height: normal;
+    text-align: justify; /* Align text to the left */
     padding: 0 20px; /* Optional padding for better text placement */
     font-size: 25px;
+  
+    
 }
