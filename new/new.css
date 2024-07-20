@@ -5,6 +5,44 @@
     padding: 0;
 }
 
+
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link text color */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Specific styles for individual sections if needed */
+.home {
+    background-color: #222;
+}
+
+.about {
+    background-color: #222;
+}
+
+.flashcards {
+    background-color: #222;
+}
+
+/* Additional styling for active or hovered links */
+nav a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+
+
+
+
+
 html {
     color: #e3dede;
     width: 95vw;
