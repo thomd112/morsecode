@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Flashcards</title>
+  <link rel="icon" type="image/x-icon" href="morsecodefavicon.png">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,46 +13,62 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
   <link rel="stylesheet" href="https://use.typekit.net/lsm2pbd.css">
+
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="a.css">
+  <link rel="stylesheet" href="fc.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
-<br>
-<br>
 
-
-
-<br>
-<br>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="main.css">
+</head>
 <body>
-  <!-- <div><p><a href="index.html"> Home</a></p></div>  -->
+
+  <nav>
+    <a href="index.html" class="section home">HOME</a>
+    <a href="newabout.html" class="section about">ABOUT</a>
+    <a href="fc.html"section flashcards">FLASHCARDS</a>
+</nav>
+ 
+
+    <section>
+        <!-- <p>Practice makes Progress!</p> -->
+         <!-- <p>Pinch or expand to adjust screen.</p> 
+         <p>Click on the left box to reveal answer.</p> -->
+            
+      
+
+        <div class="container">
+          <button id="shuffle">SHUFFLE</button>
+            <div id="flashcard"></div>
+            
+        </div>
+    </section>
+
+    <script src="fc.js"></script>
+</body>
+</html>
+
 
   
-<p>Click on the alphabets to learn the respective sound and acronym for each letter.</p>
-
-<br>
-
-<p>Click on the letter once for them to appear and click again for the letter to disapear.</p>
-
-
-
-<br>
-<p>Pinch or expand the screen to fit your device :) </p>
-<br>
-<p>Enjoy!</p>
 
 
 
 
 
 
-  
+
+
+
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
